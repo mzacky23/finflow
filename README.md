@@ -37,16 +37,6 @@ Easily track expenses, manage budgets, set financial goals, and gain insightful 
 
 ---
 
-## 🏗️ Project Architecture
-
-lib/
-├── core/ # Themes, routes, constants
-├── data/ # Models, repositories, data sources
-├── domain/ # Entities, repository interfaces
-└── presentation/ # UI, widgets, BLoCs
-
----
-
 ## ⚙️ Tech Stack
 
 - **Flutter** — UI Framework
