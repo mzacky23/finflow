@@ -1,16 +1,80 @@
-# finflow
+# 💰 FinFlow - Personal Finance Manager
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![BLoC](https://img.shields.io/badge/BLoC-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-## Getting Started
+A beautiful and intuitive personal finance management app built with **Flutter**.  
+Easily track expenses, manage budgets, set financial goals, and gain insightful analytics.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 💳 Transaction Management
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Add, edit, and delete transactions
+- Categorize income and expenses
+- Local data persistence using **Hive**
+
+### 📊 Budget Tracking
+
+- Set monthly budgets per category
+- Visual progress indicators
+- Smart filtering by month
+
+### 🎯 Financial Goals
+
+- Create and manage savings goals
+- Track progress visually
+- Stay motivated to reach your targets
+
+### 📈 Reports & Analytics
+
+- Expense breakdown by category
+- Income vs expense comparison
+- Monthly trends and financial insights
+
+---
+
+## 🏗️ Project Architecture
+
+lib/
+├── core/ # Themes, routes, constants
+├── data/ # Models, repositories, data sources
+├── domain/ # Entities, repository interfaces
+└── presentation/ # UI, widgets, BLoCs
+
+---
+
+## ⚙️ Tech Stack
+
+- **Flutter** — UI Framework
+- **BLoC** — State Management
+- **Hive** — Local Database
+- **Syncfusion Charts** — Data Visualization
+
+---
+
+## 🚀 Getting Started
+
+### 🧩 Prerequisites
+
+- Flutter SDK **3.0+**
+- Dart **2.17+**
+
+### 🛠️ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/mzacky23/finflow.git
+
+# Navigate into the project directory
+cd finflow
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+```

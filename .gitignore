@@ -11,18 +11,19 @@ build/
 .melos_tool/
 coverage/
 **/doc/api/
+pubspec.lock
 
 # =====================================
 # Android
 # =====================================
-android/app/debug
-android/app/profile
-android/app/release
 android/.gradle/
 android/.idea/
 android/local.properties
 android/key.properties
 android/captures/
+android/app/debug
+android/app/profile
+android/app/release
 android/app/*.keystore
 android/app/*.jks
 
@@ -106,3 +107,12 @@ desktop.ini
 firebase-debug.log
 crashlytics-build.properties
 
+# =====================================
+# Dart2JS / Web build artifacts
+# =====================================
+*.dart.js
+*.info.json
+*.js.deps
+*.js.map
+*.js_
+*.js
